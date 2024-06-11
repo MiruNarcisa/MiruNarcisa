@@ -1,9 +1,9 @@
 let indexColor = 0;
 
 const colors = [
-    { className: 'btn btn-danger'},
-    { className: 'btn btn-warning'},
-    { className: 'btn btn-success'}
+    { className: 'btn btn-danger' },
+    { className: 'btn btn-warning' },
+    { className: 'btn btn-success' }
 ];
 
 function changeColor() {
@@ -12,7 +12,7 @@ function changeColor() {
     const btn = document.getElementById("myButton");
     btn.className = color.className;
     button.textContent = "Change color";
-    btn.textContent = color.className.split(' ')[2]; 
+    btn.textContent = color.className.split(' ')[2];
 }
 
 function autoChangeColor() {
